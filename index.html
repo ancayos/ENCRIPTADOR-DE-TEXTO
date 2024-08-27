@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="text-center w-100">Encriptador de Texto</h1>
+            <button id="theme-toggle" class="btn btn-secondary">
+                <i class="bi bi-sun"></i>
+            </button>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Ingrese el texto</h2>
+                <textarea id="input-text" class="form-control mb-3" rows="6" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="d-flex justify-content-between">
+                    <button id="encrypt-btn" class="btn btn-primary w-25">Cifrar</button>
+                    <button id="decrypt-btn" class="btn btn-success w-25">Descifrar</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Texto encriptado / desencriptado</h2>
+                <textarea id="output-text" class="form-control mb-3" rows="6" readonly></textarea>
+                <div class="d-flex justify-content-between">
+                    <button id="copy-btn" class="btn btn-info w-25">Copiar</button>
+                    <button id="clear-btn" class="btn btn-warning w-25">Limpiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+            <p class="mb-0">Powered by Tania Piña.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="col-md-12 d-flex flex-column align-items-center">
+            <img src="assets/img/ancayosdevlogo.png" alt="Logo del Footer" class="footer-logo">
+            <p class="mb-0">&copy; 2024. Ancayos Dev. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
